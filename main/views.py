@@ -27,8 +27,6 @@ def runCode(request):
 		if 'input' in request.POST:
 			data['input'] = request.POST['input']
 		r = requests.post('http://api.hackerearth.com/code/run/', data=json.dumps(data))
-		print(r.json())
 		return JsonResponse(r.json(), safe=False)
-
 	else:
 		return HttpResponseForbidden()
