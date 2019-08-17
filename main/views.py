@@ -15,8 +15,8 @@ def runCode(request):
 		source = request.POST.get('source')
 		lang = request.POST.get('lang')
 		data = {
-			'client_id': 'a4daf04286e2aa804304a412dd41e1c7c0b2a27868e07.api.hackerearth.com',
-			'client_secret': 'b359cdd5e6fa0e36900d299525108b9d104e72d9',
+			'client_id': 'a917a3f15fb08e0b663a55455590076d0b72a8cc60f6.api.hackerearth.com',
+			'client_secret': '6907eaad6d8a58c66dd7827a9e7a1f7480785f10',
 			'async': 0,
 			'source': source,
 			'lang': lang,
